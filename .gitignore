@@ -1,0 +1,56 @@
+# WordPress Core Files
+/wp-config.php
+/wp-content/uploads/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/cache/supercache/
+
+# WordPress specific
+wp-config-sample.php
+wp-config.php
+/sitemap.xml
+/sitemap.xml.gz
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins except our custom ones
+/wp-content/plugins/*
+!/wp-content/plugins/todo-manager/
+
+# All themes except our custom ones
+/wp-content/themes/*
+!/wp-content/themes/todo-organizer/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log*
+
+# Composer
+/vendor/
